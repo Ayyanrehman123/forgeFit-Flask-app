@@ -1,13 +1,15 @@
 to run the app>>
 
-.\env\Scripts\activate
-pyhton app.py
 
-**if shows error like flask not found use
-pip install flask
+. **Install dependencies:**
 
-**if shows error about virtual enviornment
-python -m venv env
-.\env\Scripts\activate
-pip install flask
-pyhton app.py
+   Ensure you have `pip` installed and then run:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+ ```bash
+   pip install -r requirements.txt
+
+   ```

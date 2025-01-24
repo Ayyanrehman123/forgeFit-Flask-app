@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Zen+Dots&display=swap');
+
+body{
+    background-color: black;
+    background-image: url("https://images.unsplash.com/photo-1521805103424-d8f8430e8933?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+.aboutpage{
+    background-image:  url(donebackground.jpg) ;
+    background-size: 2000px;
+}
+.membership{
+    background-image: url(donebackground.jpg);
+}
+.navbar{
+    font-size: medium;
+    position: absolute;
+    font-family: "Comfortaa", sans-serif;
+    right: 90px;
+    top: 0cm;
+    padding: 20px;
+    color: whitesmoke;
+    
+}
+.navbar li{
+    display: inline-block;
+    padding: 20px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+
+}
+/* #li1{
+    display: inline-block;
+    position: absolute;
+    right: 500px;
+    top: 50px;
+}
+#li2{
+    display: inline-block;
+    position: absolute;
+    right: 240px;
+    top: 50px;
+    bottom: 45px;
+}
+#li3{
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+    top: 50px;
+} */
+.homeCon{
+    display: grid;
+    /* background-color: red; */
+    grid-template-columns: 2fr 1fr;
+    margin-top: 16rem;
+}
+.con1{
+/* background-color: green;     */
+font-family: "Zen Dots", sans-serif;
+color: greenyellow;
+margin-left: 8rem;
+}
+
+
+.mainhead{
+    /* position: absolute; */
+    font-family: "Zen Dots", sans-serif;
+    font-size: 8rem;
+    color: greenyellow;
+    line-height: 55%;
+}
+.mainpara{
+    font-size:x-large;
+    font-family: "Comfortaa", sans-serif;
+    color: whitesmoke;
+}
+.button{
+    margin-top: 3rem;
+    margin-left: 1.5rem;
+    font-family: "Zen Dots",sans-serif;
+    font-size: 30px;
+    border-color: greenyellow;
+    border-width: 5px;
+    border-style: outset;
+    border-radius: 15px;
+    background-color:greenyellow;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#aboutus{
+    position: absolute;
+    /* margin-left: 500px; */
+    font-family: "Zen Dots", sans-serif;
+    /* margin-left: 42%; */
+    margin-top: 90px; 
+    font-size: 60px;
+    color:greenyellow;
+}
+
+#aboutpara{
+    position: absolute;
+    margin-top:400px;
+    font-family: "Outfit", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    /* padding-inline: 50px; */
+    margin-left: 5%; 
+    margin-right: 5%; 
+    text-align: center;
+    color: whitesmoke;
+}
+#get{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Zen Dots", sans-serif;
+    font-size: 50px;
+    color: greenyellow;
+    
+}
+#copyright{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+    padding: 20px;
+}
+#copypara{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px; 
+
+}
+#contact{
+    color: whitesmoke;
+    font-family: "Outfit", sans-serif;
+    font-size: 25px;
+    position: absolute;
+    top: 80%;     
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    text-align: center;
+    padding: 20px; 
+
+}
+#mail{
+    color: whitesmoke;
+    font-family: "Outfit", sans-serif;
+    font-size: 25px;
+    position: absolute;
+    top: 85%;     
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    text-align: center;
+    padding: 20px; 
+}
+#num{
+    
+    color: whitesmoke;
+    font-family: "Outfit", sans-serif;
+    font-size: 25px;
+    position: absolute;
+    top: 90%;     
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    text-align: center;
+    padding: 20px; 
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: greenyellow;
+    font-family: "Zen dots",sans-serif;
+    font-size: 30px;
+}   
+
+.plans{
+    border: 2px solid whitesmoke;
+    background-color: #FFFFF7;
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+    font-family: "Outfit",sans-serif;
+    /* font-weight: 600; */
+    text-align: center;
+    box-shadow: 1px 1px 6px whitesmoke; 
+    margin-left: 250px;
+    margin-top: 8%;
+    line-height: 30px;
+    color:black;
+    
+}
+#elite{
+    height: 390px;
+    position: absolute;
+    margin-left: 70%;
+}
+.elitebutton{
+    position: absolute;
+    width: 170px;
+    font-family: "Zen Dots",sans-serif;
+    font-size: 20px;
+    top: 340px;
+    left: 62px;
+    border:2px solid black;
+    border-width: 5px;
+    border-radius: 15px;
+    background-color:greenyellow;
+    border-style: groove;
+}
+
+#basic{
+    position: absolute;
+    height: 390px;
+}
+.basicbutton{
+    position: absolute;
+    width: 170px;
+    font-family: "Zen Dots",sans-serif;
+    font-size: 20px;
+    top: 315px;
+    left: 60px;
+    border:2px solid black;
+    border-width: 5px;
+    border-radius: 15px;
+    background-color:greenyellow;
+    border-style: groove;
+}
+#premium{
+    position: absolute;
+    margin-left: 40%;
+    height:390px;
+
+}
+.premiumbutton{
+    position: absolute;
+    width: 170px;
+    font-family: "Zen Dots",sans-serif;
+    font-size: 20px;
+    top: 310px;
+    left: 60px;
+    border:2px solid black;
+    border-width: 5px;
+    border-radius: 15px;
+    background-color:greenyellow;
+    border-style: groove;
+}
+#basic1{
+    padding-right: 40px;
+}
+#basic2{
+    padding-right: 40px;
+}
+#basic3{
+    padding-right: 42px;
+}
+#basic4{
+    padding-right: 40px;
+    line-height: 50px;
+}
+
+#premium1{
+    padding-right: 40px;
+}
+#premium2{
+    padding-right: 38px;
+}
+#premium3{
+    padding-right: 36px;
+}
+#premium4{
+    padding-right: 36px;
+}
+
+#premium5{
+    padding-right: 36px;
+}
+#elite1{
+    padding-right: 36px;
+}
+#elite2{
+    padding-right: 36px;
+}
+#elite3{
+    padding-right: 36px;
+}
+#elite4{
+    padding-right: 36px;
+}
+#elite5{
+    padding-right: 36px;
+}
+#elite6{
+    padding-right: 36px;
+}
+#elite7{
+    padding-right: 36px;
+}
+.form-container{   
+    background-color: #1c1f26;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    margin-top:18% ;
+    margin-left:37% ;
+}
+
+.form-container h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #9acd32;
+}
+
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+.form-container p{
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.form-input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.form-input:focus {
+    border: 2px solid greenyellow;
+}
+
+.form-button {
+    padding: 10px;
+    background-color: greenyellow;
+    color: #1c1f26;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+    background-color: #9acd32;
+}
+
+/* Register link styles */
+.register-link {
+    color: greenyellow;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link:hover {
+    text-decoration: underline;
+}
+
+header h1 {
+    font-size: 90px;
+    margin-bottom: 20px;
+    color: greenyellow;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-item img {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+

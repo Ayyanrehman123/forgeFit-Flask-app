@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+    {% block title %}SignUp | ForgeFit{% endblock %}
+
+    {% block content %}
+
+    <div class="form-container">
+        <h1>Sign Up</h1>
+        <form>
+            <input type="text" name="username" placeholder="Username" class="form-input" required>
+            <input type="password" name="password" placeholder="Password" class="form-input" required>
+            <button type="submit" class="form-button">Sign Up</button>
+        </form>
+        <p>
+            Already have an account? <a href="{{ url_for('login') }}" class="register-link">Sign In</a>.
+        </p>
+    </div>
+
+
+
+
+    {% endblock %}

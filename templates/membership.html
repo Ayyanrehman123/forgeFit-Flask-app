@@ -1,0 +1,55 @@
+
+    {% extends "base.html" %}
+
+    {% block title %}Memberships | ForgeFit{% endblock %}
+    
+    {% block content %}
+
+   <div class="membership">
+        </div>  
+        <div class="heading">
+            <h1>Memberbership Plans</h1>
+        </div>
+
+        <div id="basic" class="plans"> 
+            <h3>Basic Plan</h3>
+     <p>Starting from 24.99$
+     Plus TAX</p>
+    <ul>
+       <li id="basic1">Modern Equipment</li>
+       <li id="basic2">No Personal Trainer</li>
+       <li id="basic3">Specifc Timings</li>
+       <p id="basic4">Perfect for Beginners </p>
+    </ul>
+    <buttons class="basicbutton">Join Now</buttons>
+        </div>
+    <div id="premium" class="plans">
+        <h3>Premium plan</h3>
+<p>Starting from 39.99$
+Plus TAX</p>
+<ul>
+    <li id="premium1"> Basic Plan</li>
+    <li id="premium2">Personal Locker</li>
+    <li id="premium3">Personal Trainer</li>
+    <li id="premium4">Group Fitness Classes</li>
+    <li id="premium5">Extended Gym Hours</li>
+</ul>
+        <button class="premiumbutton">Join Now</button>
+    </div>
+    <div  id="elite" class="plans">
+        <h3>Elite Plan</h3>
+<p>Starting from 59.99$
+Plus TAX</p>
+<ul>
+    <li id="elite1">All Premium Features</li>
+    <li id="elite2">Unlimited Trainer Access</li>
+    <li id="elite3">Personal Trainer</li>
+    <li id="elite4">Nutrition Counselling</li>
+    <li id="elite5">Exclusive Workshop</li>
+    <li id="elite6">Allowed 24/7</li>
+    <li id="elite7">Group Fitness Classes</li>
+</ul>
+        <button class="elitebutton">Join Now</button>
+     </div>
+    </div>
+    {% endblock %}

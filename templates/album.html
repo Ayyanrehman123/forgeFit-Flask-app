@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+    {% block title %}Gallery | ForgeFit{% endblock %}
+
+    {% block content %}
+    <header>
+        <h1>Gallery</h1>
+    </header>
+    <main>
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <img src="{{ url_for('static', filename='images/gym1.jpg') }}" alt="Image 1">
+            </div>
+            <div class="gallery-item">
+                <img src="{{ url_for('static', filename='images/gym2.jpg') }}" alt="Image 1">
+            </div>
+            <div class="gallery-item">
+                <img src="{{ url_for('static', filename='images/gym3.jpg') }}" alt="Image 1">
+            </div>
+            <div class="gallery-item">
+                <img src="{{ url_for('static', filename='images/gym4.jpg') }}" alt="Image 1">
+            </div>
+            <div class="gallery-item">
+                <img src="{{ url_for('static', filename='images/gym5.jpg') }}" alt="Image 1">
+            </div>
+            <div class="gallery-item">
+                <img src="{{ url_for('static', filename='images/images.jpg') }}" alt="Image 1">
+            </div>
+        </div>
+    </main>
+
+    {% endblock %}
+
